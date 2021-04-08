@@ -1,0 +1,126 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-container {
+    background: rosybrown;
+}
+header {
+    height: 55px;
+    width: 100%;
+}
+
+.logo img{
+    height: 55px;
+    width: 44%;
+}
+
+.text-container p {
+    position: relative;
+    display: inline;
+    float: right;
+    bottom: 53px;
+    color: white;
+    margin: 11px;
+    font-size: 17px;
+
+}
+
+.text-container p:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.background {
+    background-image: url("./images/pariz12.image.jpg");
+    background-size: 100% 100%;  
+    height: 600px;
+    width: 100%;
+}
+
+.buttons {
+    position: absolute;
+    right: 10%;
+    top: 100px;
+
+}
+
+.buttons button {
+    width: 85px;
+    height: 36px;
+    background-color: rosybrown;
+    color: white;
+}
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    width: 100px;
+    height: 5opx;
+}
+
+.hedline {
+    margin: 0 auto;
+    box-shadow: 12px  #582c2c;
+}
+
+.hedline h1 {
+    position: relative;
+    left: 420px;
+    top: 125px;
+    font-size: 55px;
+    color: #582c2c;
+}
+
+.hedline p {
+    position: relative;
+    left: 320px;
+    top: 160px;
+    font-size: 25px;
+    color: #582c2c;
+    top: 185px;
+    text-align: -webkit-left;
+    text-shadow: 1px 0px #582c2c;
+}
+
+.images {
+    width: 148px;
+    background: rosybrown;
+}
+
+.images img {
+    height: 45px;
+    display: table-row;
+}
+
+.input-container input{
+    position: relative;
+    left: 20%;
+    bottom: 85px;
+    text-align: center;
+}
+
+.search {
+    position: relative;
+    left: 20%;
+    height: 53px;
+    width: 105px;
+    background: rosybrown;
+    bottom: 85px;
+}
+.inp1 {
+    height: 49px;
+    width: 227px;
+}
+
+.inp1:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.inp2 {
+    height: 49px;
+    width: 520px;
+}
+
+.inp2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
